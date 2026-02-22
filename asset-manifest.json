@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mariamahmed29/crud.git/static/css/main.3982bb5f.css",
-    "main.js": "/mariamahmed29/crud.git/static/js/main.d96334df.js",
-    "index.html": "/mariamahmed29/crud.git/index.html",
-    "main.3982bb5f.css.map": "/mariamahmed29/crud.git/static/css/main.3982bb5f.css.map",
-    "main.d96334df.js.map": "/mariamahmed29/crud.git/static/js/main.d96334df.js.map"
+    "main.css": "/crud/static/css/main.3982bb5f.css",
+    "main.js": "/crud/static/js/main.d96334df.js",
+    "index.html": "/crud/index.html",
+    "main.3982bb5f.css.map": "/crud/static/css/main.3982bb5f.css.map",
+    "main.d96334df.js.map": "/crud/static/js/main.d96334df.js.map"
   },
   "entrypoints": [
     "static/css/main.3982bb5f.css",
