@@ -27,7 +27,7 @@ function App() {
   // All Data
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(!name || !image || !price || !discount) {
+    if(!name || !image || !price) {
       alert('Please fill all the fields');
       return;
     }
@@ -133,11 +133,10 @@ function App() {
                   Price: <span className="text-decoration-line-through">${product.price}</span>
                 </p>
                 <p className='card-text text-success fw-bold'>
-                  Discount: {product.discount}%
+                  {product.discount > 0 ? `Discount: ${product.discount}%` : 'No discount'}
                 </p>
                 <p className="fw-bold">
-                  Final Price: $
-                  {product.price - (product.price * product.discount) / 100}
+                  {product.discount > 0 ? `Final Price: $${product.price - (product.price * product.discount) / 100}` : `Final Price: $${product.price}`}
                 </p>
                 <div>
                   <button className='btn btn-sm btn-outline-warning me-2' onClick={() => handleEdit(index)}>Edit</button>
