@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mariamahmed29/crud.github.io/static/css/main.3982bb5f.css",
+    "main.js": "/mariamahmed29/crud.github.io/static/js/main.d96334df.js",
+    "index.html": "/mariamahmed29/crud.github.io/index.html",
+    "main.3982bb5f.css.map": "/mariamahmed29/crud.github.io/static/css/main.3982bb5f.css.map",
+    "main.d96334df.js.map": "/mariamahmed29/crud.github.io/static/js/main.d96334df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3982bb5f.css",
+    "static/js/main.d96334df.js"
+  ]
+}
